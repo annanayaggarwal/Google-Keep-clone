@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(243, 240, 240);
+    display: flex;
+    font-family: "poppins", sans-serif;
+    flex-wrap: wrap;
+}
+.heading {
+    width: 100vw;
+    height: 5.5rem;
+    background-color: #f1c40f;
+    color: #282936;
+    box-shadow: 0px 10px 16px rgb(248, 247, 247);
+}
+.heading h1 {
+    line-height: 5.8rem;
+    margin-left: 2rem;
+    font-weight: 400;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    padding: 22px;
+}
+#input-box{
+    border: 1px solid black;
+    padding: 22px;
+}
+input,textarea{
+    width: 100% ;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    color:black;
+}
+button{
+    background-color: transparent;
+    color: black;
+    padding: 8px 12px;
+    border: 1px solid black;
+}
+#notes{
+    padding: 22px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.note{
+    width: 250px;
+    margin: 12px;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+}
+.deleteNote{
+    float: right;
+}
+button:hover{
+    cursor: pointer;
+    color: rgb(220, 184, 184);
+    background-color: rgb(16, 15, 15);
+    border-radius:40%;
+}
+#notes {
+    overflow: hidden;
+}
+#input-box:hover{
+    background-color: rgb(230, 227, 227);
+}
